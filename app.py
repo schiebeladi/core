@@ -10,7 +10,7 @@ try:
     API_KEY = st.secrets["GEMINI_API_KEY"]
     genai.configure(api_key=API_KEY)
     # Usando o modelo 1.5-flash que é mais estável e rápido
-    model = genai.GenerativeModel('gemini-3-flash-preview')
+    model = genai.GenerativeModel('gemini-3.5-flash')
 except Exception as e:
     st.error("Erro na chave da API. Verifique o arquivo secrets.toml.")
 
@@ -189,7 +189,7 @@ if gerar:
 
                     ⚠ IMPORTANTE:
                     - A análise NÃO é diagnóstico médico.
-                    - Trabalhe com interpretação integrativa, emocional e energética.
+                    - Trabalhe com interpretação integrativa, emocional, energética e metafisica
                     - Utilize linguagem acolhedora, humanizada e profissional.
                     - Escreva como consultora experiente, com segurança técnica e sensibilidade.
 
@@ -230,7 +230,7 @@ if gerar:
                     - Região de aplicação
                     - Movimentos
                     - Frequência
-                    - Objetivo energético e emocional
+                    - Objetivo funcional, energético e emocional
 
                     ## 4) Rotina de Suplementação doTERRA(Se houver indicação)
                     Caso faça sentido na análise:
