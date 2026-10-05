@@ -8,7 +8,7 @@ import streamlit as st
 try:
   API_KEY = st.secrets["GEMINI_API_KEY"].strip()
   genai.configure(api_key=API_KEY)
-  model = genai.GenerativeModel("gemini-3.1-flash-lite")
+  model = genai.GenerativeModel("gemini-3.5-flash-lite")
 except KeyError:
   st.error(
       "A chave 'GEMINI_API_KEY' não foi encontrada no arquivo secrets.toml."
