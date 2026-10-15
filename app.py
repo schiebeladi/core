@@ -255,7 +255,7 @@ if gerar:
 
                 ## 2) Sua Rotina Diária
                 Elabore uma rotina prática personalizada com:
-                - Uso de óleos por ingestão (quando apropriado)
+		- Uso de óleos por ingestão (quando apropriado)
                 - Inalação
                 - Difusão ambiental
                 - Aplicação tópica
@@ -266,6 +266,7 @@ if gerar:
                 - Noite
 
                 Inclua para cada momento:
+		- Obrigatoriamente 1 ou mais oleos
                 - Como usar
                 - Quantidade
                 - Forma de uso
